@@ -1,5 +1,5 @@
-//go:build !windows
-// +build !windows
+//go:build !windows && acme
+// +build !windows,acme
 
 package acme
 

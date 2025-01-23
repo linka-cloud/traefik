@@ -1,3 +1,5 @@
+//go:build acme
+
 package acme
 
 // StoredData represents the data managed by Store.

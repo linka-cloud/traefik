@@ -1,3 +1,5 @@
+//go:build influxdb2
+
 package metrics
 
 import (

@@ -1,3 +1,5 @@
+//go:build consulcatalog
+
 package consulcatalog
 
 import (

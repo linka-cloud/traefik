@@ -1,3 +1,5 @@
+//go:build zk
+
 package zk
 
 import (

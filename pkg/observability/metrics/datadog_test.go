@@ -1,3 +1,5 @@
+//go:build datadog
+
 package metrics
 
 import (
