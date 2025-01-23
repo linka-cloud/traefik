@@ -1,3 +1,5 @@
+//go:build ecs
+
 package ecs
 
 import (

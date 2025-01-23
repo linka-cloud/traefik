@@ -1,3 +1,5 @@
+//go:build ecs
+
 package logs
 
 import (

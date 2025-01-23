@@ -1,3 +1,5 @@
+//go:build nomad
+
 package nomad
 
 import (

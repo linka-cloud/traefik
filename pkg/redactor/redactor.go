@@ -99,6 +99,9 @@ func doOnStruct(field reflect.Value, tag string, redactByDefault bool) error {
 
 			// A struct field cannot be set it must be filled as pointer.
 			if fld.Kind() == reflect.Struct {
+				if !fld.CanAddr() {
+					continue
+				}
 				fldPtr := reflect.New(fld.Type())
 				fldPtr.Elem().Set(fld)
 

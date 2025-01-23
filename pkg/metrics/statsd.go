@@ -1,3 +1,5 @@
+//go:build statsd
+
 package metrics
 
 import (
